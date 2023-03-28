@@ -53,8 +53,7 @@ function verificar() {
             }
         }
         
-        res.innertHTML = `Detectamos ${genero} com ${idade} anos.`;
-        res.appendChild(img);
-
+        res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
+        res.appendChild(img)
     }
 }
